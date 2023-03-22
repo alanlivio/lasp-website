@@ -7,13 +7,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LASP',
-  url: 'https://lasp-ucl.github.io',
-  baseUrl: '/',
+  deploymentBranch: 'gh-pages',
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'lasp-ucl',
-  projectName: 'lasp-ucl.github.io',
+  // url: 'https://lasp-ucl.github.io',
+  // baseUrl: '/',
+  // organizationName: 'lasp-ucl',
+  // projectName: 'lasp-ucl.github.io',
+  url: 'https://alanlivio.github.io/',
+  baseUrl: '/lasp-website/',
+  organizationName: 'alanlivio',
+  projectName: 'lasp-website',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -65,8 +70,8 @@ const config = {
             items: [
               {
                 type: 'doc',
-                docId: 'research/research',
-                label: 'Overview',
+                docId: 'research/research-topics',
+                label: 'Research Topics',
               },
               {
                 type: 'doc',
@@ -83,22 +88,14 @@ const config = {
                 docId: 'research/publications',
                 label: 'Publications',
               },
-            ],
-            position: 'left',
-          },
-          {
-            type: 'dropdown',
-            label: 'Laura Toni',
-            items: [
               {
-                type: 'doc',
-                docId: 'team/laura-toni',
-                label: 'Bio',
+                to: '/blog/tags/event/',
+                label: 'Events',
               },
               {
                 type: 'doc',
-                docId: 'talks/graph-and-online-learning',
-                label: 'Talks on Graph and Online Learning',
+                docId: 'talks/graph-learning',
+                label: 'Talks on Graph Learning',
               },
               {
                 type: 'doc',
@@ -119,17 +116,6 @@ const config = {
             position: 'left',
           },
           {
-            to: '/blog/tags/event/',
-            position: 'left',
-            label: 'Events',
-          },
-          {
-            type: 'doc',
-            docId: 'fun',
-            position: 'left',
-            label: 'Lab Fun',
-          },
-          {
             type: 'dropdown',
             label: 'New members',
             items: [
@@ -142,6 +128,11 @@ const config = {
                 type: 'doc',
                 docId: 'new-member/students-projects',
                 label: 'Students projects',
+              },
+              {
+                type: 'doc',
+                docId: 'new-member/get-started-on-graphs',
+                label: 'Get started on Graphs',
               },
             ],
           },

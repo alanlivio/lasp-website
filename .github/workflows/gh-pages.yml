@@ -1,0 +1,33 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - "latex/*"
+      - "shared/*"
+      - "docs/*"
+      - "docusaurus.config.js"
+
+permissions:
+  contents: write
+
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
+      - name: Install dependencies
+        run: npm install --frozen-lockfile
+      - name: Build website
+        run: npm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build # Build output to publish to the `gh-pages` branch

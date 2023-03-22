@@ -4,7 +4,7 @@ title: "Point Cloud Talks"
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<p align="center"><img src={useBaseUrl('/img/topics/pointcloud.gif')}/></p>
+<p align="center"><img src={useBaseUrl('/img/topics/point-cloud.gif')}/></p>
 
 
 ### Spatio-temporal Graph-RNN for Point Cloud Prediction

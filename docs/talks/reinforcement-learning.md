@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Learning Graph Representation for Data-Efficiency RL
 
-Speaker: [Laura Toni](../team/laura-toni)   
+Speaker: Laura Toni   
 Location: DeepMind, 2019   
 Content: [slides](https://www.slideshare.net/lauratoni4/learning-graph-representation-for-dataefficiency-rl)  
 

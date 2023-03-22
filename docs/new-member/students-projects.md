@@ -13,4 +13,4 @@ New student projects/thesis at bachelor and master level on 
 
 See the full list below:
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRO3x_rxn36zfOmmwgQBaM3uWwttBlXXsHO80fdBsVsCIGqHMHQcyHAlhPK5E1-TQ/pub?embedded=true" width="800"  height="1200"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vQxFzjnBNmcKUVUtKC-MGFN6jn7UasEtFleZ1j57TWMSMkzrUPT8vn87OnzBndZFpQnNyeJKtw_ueVd/pub?embedded=true" width="800"  height="1200"></iframe>

@@ -3,6 +3,9 @@ title: "Talks"
 date: "2021-10-26"
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
 ## Immersive Communication Talks
 
 <!-- [![](images/vrmix.png)](https://laspucl2016.wpcomstaging.com/immersive-communication-talks/) -->

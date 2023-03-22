@@ -40,7 +40,6 @@ Key medresearch topics
 
 <img width="200" src={useBaseUrl('/img/topics/publications.jpg')} />
 
-[See the group publications here](../publications/)  
 [Google Scholar](https://scholar.google.com/citations?user=fQ-oWKUAAAAJ&hl=en)  
 [LASP Github](https://github.com/LASP-UCL)
 

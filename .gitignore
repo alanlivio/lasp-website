@@ -142,5 +142,6 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/node
 
+build/*
 imported/*
 .docusaurus/*# Created by https://www.toptal.com/developers/gitignore/api/node

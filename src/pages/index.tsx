@@ -22,70 +22,62 @@ type FeatureItem = {
 const FEATURES: FeatureItem[] = [
   {
     title: translate({
-      message: 'Powered by MDX',
-      id: 'homepage.features.powered-by-mdx.title',
+      message: 'Graph Based Machine Learning',
     }),
     image: {
-      src: '/img/undraw_typewriter.svg',
+      src: '/img/topics/graphs.webp',
       width: 1009.54,
       height: 717.96,
     },
     text: (
-      <text>
-        XXXXXXX
-      </text>
+      <p>
+        We exploit graph signal processing to derive efficient optimization strategies for large scale problems. The key intuition is to learn in a sparse but representative domain. Possible applications are: optimal placement of heating sources in sensor networks, optimal ads in social networks, orrecommendations in high-dimensional problems.
+      </p>
     ),
   },
   {
     title: translate({
-      message: 'Built Using React',
-      id: 'homepage.features.built-using-react.title',
+      message: 'Immersive Communications ',
     }),
     image: {
-      src: '/img/undraw_react.svg',
+      src: '/img/topics/immersive.webp',
       width: 1108,
       height: 731.18,
     },
     text: (
-      <Translate id="homepage.features.built-using-react.text">
-        Extend and customize your project&apos;s layout by writing React
-        components. Leverage the pluggable architecture, and design your own
-        site while reusing the same data created by Docusaurus plugins.
-      </Translate>
+      <p id="homepage.features.built-using-react.text">
+        A major challenge for the next decade is to design virtual, augmented, and mixed reality systems (VR at large) for real-world use cases such as healthcare, creative technology, e-education, and high-risk missions. This requires VR systems to operate at scale, in a personalised manner, remaining bandwidth-tolerant whilst meeting quality and latency criteria. This can be accomplished only by a fundamental revolution of the coding/streaming/rendering chain that has to put the interactive user at the heart of the system rather than at the end of the chain.
+      </p>
     ),
   },
   {
     title: translate({
-      message: 'Ready for Translations',
-      id: 'homepage.features.ready-for-translations.title',
+      message: 'Spatio-Temporal Graph-RNN for Point Cloud Prediction',
     }),
     image: {
-      src: '/img/undraw_around_the_world.svg',
+      src: '/img/topics/point-cloud.webp',
       width: 1137,
       height: 776.59,
     },
     text: (
-      <Translate id="homepage.features.ready-for-translations.text">
-        Localization comes out-of-the-box. Use git, Crowdin, or any other
-        translation manager to translate your docs and deploy them individually.
-      </Translate>
+      <p id="homepage.features.ready-for-translations.text">
+        We designed a Graph neural network able process irregular point cloud sequences and make accurate predictions of future movements, while persevering the shape.
+      </p>
     ),
   },
   {
     title: translate({
-      message: 'Document Versioning',
-      id: 'homepage.features.document-versioning.title',
+      message: 'User Behaviour Analysis in VR Systems',
     }),
     image: {
-      src: '/img/undraw_version_control.svg',
+      src: '/img/topics/vr.png',
       width: 1038.23,
       height: 693.31,
     },
     text: (
-      <Translate id="homepage.features.document-versioning.text">
-        Support users on all versions of your project. Document versioning helps
-        you keep documentation in sync with project releases.
-      </Translate>
+      <p>
+        Do we understand how people interact with technology? Can we model users’ behaviour in VR systems, inferring the correlation between users’ interactivity and the VR content?
+      </p>
     ),
   },
   {
@@ -99,10 +91,10 @@ const FEATURES: FeatureItem[] = [
       height: 736.21,
     },
     text: (
-      <Translate id="homepage.features.content-search.text">
+      <p id="homepage.features.content-search.text">
         Make it easy for your community to find what they need in your
         documentation. We proudly support Algolia documentation search.
-      </Translate>
+      </p>
     ),
   },
 ];
@@ -116,7 +108,7 @@ function HeroBanner() {
             className={styles.heroLogo}
             src={useBaseUrl('/img/topics/signal.jpg')}
             width="400"
-            height="800"
+            height="300"
           />
           <h1 className="hero__title">Learning And Signal Processing (LASP)</h1>
         </Heading>
@@ -165,8 +157,8 @@ function Feature({
 }
 
 function FeaturesContainer() {
-  const firstRow = FEATURES.slice(0, 3);
-  const secondRow = FEATURES.slice(3);
+  const firstRow = FEATURES.slice(0, 2);
+  const secondRow = FEATURES.slice(2,4);
 
   return (
     <div>
@@ -189,7 +181,6 @@ function FeaturesContainer() {
           <Feature
             feature={feature}
             key={idx}
-            className={clsx('col--4', idx === 0 && 'col--offset-2')}
           />
         ))}
       </div>

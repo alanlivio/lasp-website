@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### The power of graphs in immersive communications  
 
-Speaker: [Laura Toni](../team/laura-toni)   
+Speaker: Laura Toni   
 Location: [WebMedia 2021](https://webmedia.org.br/2021/)    
 Content: [slides](https://www.slideshare.net/tonizza82/the-power-of-graphs-in-immersive-communications/tonizza82/the-power-of-graphs-in-immersive-communications)  
 
@@ -16,7 +16,7 @@ Content: [slides](https://www.slideshare.net/tonizza82/the-power-of-graphs-in-im
 
 ### Understanding user interactivity for immersive communications and its impact on QoE
 
-Speaker: [Laura Toni](../team/laura-toni)  
+Speaker: Laura Toni  
 Location: [MPEG AG5 Workshop on Quality of Immersive Media: Assessment and Metrics](https://multimediacommunication.blogspot.com/2021/08/mpeg-ag-5-workshop-on-quality-of.html?m=1) 2021  
 Content: [slides](https://www.slideshare.net/christian.timmerer/understanding-user-interactivity-for-immersive-communications-and-its-impact-on-qoe-250584417)  
 
@@ -25,7 +25,7 @@ Content: [slides](https://www.slideshare.net/christian.timmerer/understanding-us
 
 ### User-centric Networks for Immersive Communication  
 
-Speaker: [Laura Toni](../team/laura-toni)  
+Speaker: Laura Toni  
 Location: University of Trento  
 Content: [slides](https://www.slideshare.net/lauratoni4/usercentric-networks-for-immersive-communication)  
 
