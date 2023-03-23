@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://alanlivio.github.io/lasp-website/blog</id>
+    <title>LASP Blog</title>
+    <updated>2019-08-31T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://alanlivio.github.io/lasp-website/blog"/>
+    <subtitle>LASP Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[New event - The power of graphs in machine learning and sequential decision-making]]></title>
+        <id>https://alanlivio.github.io/lasp-website/blog/2019/08/31/2</id>
+        <link href="https://alanlivio.github.io/lasp-website/blog/2019/08/31/2"/>
+        <updated>2019-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[INRIA and UCL organizing the workshop on “The power of graphs in machine learning and decision-making” supported by UCL Grand Challenges.]]></summary>
+        <content type="html"><![CDATA[<img loading="lazy" src="/lasp-website/img/topics/graphs.jpg" class="img_ev3q"><p>INRIA and UCL organizing the workshop on “The power of graphs in machine learning and decision-making” supported by UCL Grand Challenges.</p><p>More info at <a href="https://graphpower.inria.fr/" target="_blank" rel="noopener noreferrer">https://graphpower.inria.fr/</a></p>]]></content>
+        <author>
+            <name>LASP</name>
+        </author>
+        <category label="event" term="event"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New preprint - Spherical clustering of users navigating 360-degree content]]></title>
+        <id>https://alanlivio.github.io/lasp-website/blog/2019/08/31/</id>
+        <link href="https://alanlivio.github.io/lasp-website/blog/2019/08/31/"/>
+        <updated>2019-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Abstract — In Virtual Reality (VR) applications, understanding how users ex- plore the visual content is important in order to optimize content creation and distribution, develop user-centric services, or even to detect disorders in medical applications. In this paper, we propose a graph-based method to identify clusters of users who are attending the same portion of spherical content, within one frame or a series of frames. With respect to other clustering methods, the proposed solution takes into account the spherical geometry of the content and correctly identifies clusters that group viewers who actually display the same portion of spherical content. Results, carried out by using a set of publicly available VR user navigation patterns, show that the proposed method identifies more meaningful clusters, i.e., clusters of users who are consistently attending the same portion of spherical content, with respect to other methods.]]></summary>
+        <content type="html"><![CDATA[<p>Abstract — In Virtual Reality (VR) applications, understanding how users ex- plore the visual content is important in order to optimize content creation and distribution, develop user-centric services, or even to detect disorders in medical applications. In this paper, we propose a graph-based method to identify clusters of users who are attending the same portion of spherical content, within one frame or a series of frames. With respect to other clustering methods, the proposed solution takes into account the spherical geometry of the content and correctly identifies clusters that group viewers who actually display the same portion of spherical content. Results, carried out by using a set of publicly available VR user navigation patterns, show that the proposed method identifies more meaningful clusters, i.e., clusters of users who are consistently attending the same portion of spherical content, with respect to other methods.</p><p>Index Terms— Virtual Reality, 360◦ video, user behaviour anal- ysis, data clustering</p><p><a href="https://arxiv.org/pdf/1811.05185.pdf" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/1811.05185.pdf</a></p>]]></content>
+        <author>
+            <name>LASP</name>
+        </author>
+        <category label="paper" term="paper"/>
+        <category label="immersive" term="immersive"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Award Cisco Prize]]></title>
+        <id>https://alanlivio.github.io/lasp-website/blog/2019/08/30/</id>
+        <link href="https://alanlivio.github.io/lasp-website/blog/2019/08/30/"/>
+        <updated>2019-08-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Silvia Rossi won the Cisco Prize for her poster titled 'Adaptive Streaming for Immersive Communication'. Well done Silvia!]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://laspucl2016.wpcomstaging.com/wp-content/uploads/2019/08/silviaaward.jpg?w=680" class="img_ev3q"></p><p>Silvia Rossi won the Cisco Prize for her poster titled 'Adaptive Streaming for Immersive Communication'. Well done Silvia!</p>]]></content>
+        <author>
+            <name>LASP</name>
+        </author>
+        <category label="award" term="award"/>
+        <category label="immersive" term="immersive"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paper Accepted at AISTATS2019]]></title>
+        <id>https://alanlivio.github.io/lasp-website/blog/2019/01/29/</id>
+        <link href="https://alanlivio.github.io/lasp-website/blog/2019/01/29/"/>
+        <updated>2019-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New paper accepted to AISTATS 2019 on “Representation Learning on Graphs: A Reinforcement Learning Application”]]></summary>
+        <content type="html"><![CDATA[<p>New paper accepted to AISTATS 2019 on “Representation Learning on Graphs: A Reinforcement Learning Application” </p><p><a href="https://arxiv.org/abs/1901.05351" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1901.05351</a></p>]]></content>
+        <author>
+            <name>LASP</name>
+        </author>
+        <category label="paper" term="paper"/>
+        <category label="graphs" term="graphs"/>
+    </entry>
+</feed>

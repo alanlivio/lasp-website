@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklasp_website=self.webpackChunklasp_website||[]).push([[9142],{7732:e=>{e.exports=JSON.parse('{"permalink":"/lasp-website/blog/tags/event","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

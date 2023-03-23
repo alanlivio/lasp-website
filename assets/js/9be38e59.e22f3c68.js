@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklasp_website=self.webpackChunklasp_website||[]).push([[1165],{7001:e=>{e.exports=JSON.parse('{"permalink":"/lasp-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

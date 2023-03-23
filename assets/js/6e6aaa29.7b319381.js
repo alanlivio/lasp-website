@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklasp_website=self.webpackChunklasp_website||[]).push([[4314],{576:e=>{e.exports=JSON.parse('{"label":"paper","permalink":"/lasp-website/blog/tags/paper","allTagsPath":"/lasp-website/blog/tags","count":2}')}}]);
